@@ -1,0 +1,25 @@
+table {
+    border: black solid 1px;
+}
+td.not-in-month{
+    background-color: transparent;
+}
+td.not-in-month:hover {
+    cursor: default;
+    background-color: transparent;
+    color: black;
+}
+
+td {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: whitesmoke;
+    margin: 1px;
+}
+
+td:hover, .month-selector:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
